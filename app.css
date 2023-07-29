@@ -1,34 +1,41 @@
 body {
-    background-color: #2b2d42;
+    background-color: #354f52;
     display: flex;
-    justify-content: center;
-    margin-top: 20%;
+    align-items: center;
 }
 
 h1 {
-    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Rubik Wet Pain';
+    color: #8a817c;
+    text-shadow: 2px 2px 4px black;
+    margin: 10%;
+    /* transition: font-size 0.3s ease; */
 }
 
-.gradient-text {
-    background: linear-gradient(to right, #ffb100, #bb3e03, #ffffff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+div {
+    background-image: url("https://i.pinimg.com/564x/b8/99/49/b8994903d96d84b6e401dcf57a4ce903.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 90vh;
+    border: 5px solid black;
+    border-radius: 20%;
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-right: 10%;
+    box-shadow: 40px 20px 20px #57cc99;
+    transition: 0.5s;
 }
 
-.input {
-    color: #8707ff;
-    border: 2px solid #ffd60a;
-    border-radius: 10px;
-    padding: 10px 25px;
-    background-color: #e9ff70;
-    max-width: 190px;
+div:hover {
+    border-radius: 50%;
+    background-image: url('https://i.pinimg.com/564x/25/ee/0f/25ee0fdeeb53add89dc1895966726862.jpg');
 }
 
-.input:active {
-    box-shadow: 2px 2px 15px #bb3e03;
-}
-
-.input:hover {
-    box-shadow: 3px 3px 20px #ffd60a;
-    border-radius: 50px;
+h1:hover {
+    font-size: 25px;
+    text-shadow: 6px 4px 4px #f48c06;
+    color: #57cc99;
 }
